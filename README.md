@@ -50,11 +50,10 @@ Virtual Host
 ------------
 Afterwards, set up a virtual host to point to the public/ directory of the
 project and you should be ready to go!
-
+Added etenv zf2_path /users/mahinthjoe/documents/github/zf2¬ 
+replaced user=mahinthjoe in  httpd.conf
+Created a symbolic link to the github directory in /Library/WebServer/Documents
 This Repository Created using the terminal in mac
 -------------------------------------------------
 Using the following command
 $ php composer.phar create-project --repository-url="http://packages.zendframework.com" zendframework/skeleton-application ~/Documents/github/zf2-tutorial
-replaced username in  httpd.conf
-Created a symbolic link to above directory in /Library/WebServer/Documents
-Restart if I am correct ;-?
